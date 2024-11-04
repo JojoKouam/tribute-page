@@ -1,11 +1,11 @@
 
 # Tribute Page: Tracy Chapman
 
-# Description
+## Description
 
 This project is a tribute page dedicated to the singer and songwriter Tracy Chapman. It highlights key aspects of her life and music career, including her notable performances and achievements. The page is built with HTML and CSS, styled with a simple yet elegant design to reflect the artist's subtle yet powerful presence.
 
-# Content
+## Content
 - **Image and Caption**: A featured image of Tracy Chapman with a brief caption celebrating her iconic status.
   
 - **Biographical Information**: A "Quick recap" section with essential facts, including her birth date and career beginnings.
