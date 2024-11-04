@@ -32,7 +32,7 @@ This project is a tribute page dedicated to the singer and songwriter Tracy Chap
 2. Navigate into the project folder:
 
 ```bash
-  cd tribute_page
+  cd tribute-page
 ```
 3. Open the index.html file in your browser to view the page.
 
