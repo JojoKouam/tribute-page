@@ -12,16 +12,19 @@
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    overflow: hidden;
   
   }
 
   #main{
     background-color: rgb(249, 249, 249);
-    max-width: 800px;
-    padding: 25px;
+    max-width: 90vw;
+    min-height: 90vh;
+    padding: 20px;
     margin: 10px;
     text-align: center;
     border-radius: 20px;
+    overflow-y: auto;
   
   }
 
@@ -35,8 +38,9 @@
   }
 
   #title{
-  text-align: center;
-  padding:  0;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
   }
 
   img{
@@ -44,7 +48,7 @@
   }
 
   #img-div{
-    margin-top: 40px;
+    margin-top: 20px;
   
   }
 
@@ -70,7 +74,11 @@
   
   }
 
- 
+  #tribute-info {
+    padding: 10px 0;
+    background-color: rgb(241, 232, 232);
+    font-size: 1.2em;
+  }
 
   #tribute-info ul{
     list-style-type: none;
@@ -88,4 +96,25 @@
   
   h2 {
     font-size: 1.5em;
+  }
+
+  /* Responsivité */
+@media (max-width: 768px) {
+    #main {
+      padding: 15px;
+      max-width: 95vw;
+      max-height: 95vh;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    
+    h2 {
+      font-size: 1.2em;
+    }
+    
+    #tribute-info {
+      font-size: 1em;
+    }
   }
